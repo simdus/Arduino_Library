@@ -1,0 +1,48 @@
+#######################################
+#	Syntax Coloring	Map	For	SCLib
+#######################################
+
+#######################################
+#	Datatypes	(KEYWORD1)
+#######################################
+
+SmartCardReader	KEYWORD1
+SL44x2	KEYWORD1
+APDU_t	KEYWORD1
+SCLibVoidFuncPtr	KEYWORD1
+
+#######################################
+#	Methods	and	Functions	(KEYWORD2)
+#######################################
+
+cardInserted	KEYWORD2
+activate	KEYWORD2
+deactivate	KEYWORD2
+getCurrentETU	KEYWORD2
+timeout	KEYWORD2
+setGuardTime	KEYWORD2
+ignoreParityErrors	KEYWORD2
+setTimeOutCallback	KEYWORD2
+sendBytes	KEYWORD2
+receiveBytes	KEYWORD2
+setIncludeTSinATR	KEYWORD2
+calcEDC	KEYWORD2
+sendAPDU	KEYWORD2
+dumpHEX	KEYWORD2
+waitForProcessingCompletion	KEYWORD2
+
+# SL44x2 functions
+cardReady	KEYWORD2
+cardRemoved	KEYWORD2
+readMainMemory	KEYWORD2
+updateMainMemory	KEYWORD2
+protectByte	KEYWORD2
+readProtectionMemory	KEYWORD2
+authenticate	KEYWORD2
+changePSC	KEYWORD2
+readSecurityMemory	KEYWORD2
+
+#######################################
+#	Constants	(LITERAL1)
+#######################################
+SL44X2_MEMORY_ERROR	LITERAL1
